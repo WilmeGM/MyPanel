@@ -1,4 +1,4 @@
-# MyPanel
+# 📋 MyPanel
 Personal panel app built in Ignition Perspective (8.1) with user authentication, profile, settings, and task management (CRUD).
 It is a **personal panel app** where a user can register, log in, and manage tasks through a web interface.
 
