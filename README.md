@@ -1,6 +1,6 @@
 # 📋 MyPanel
 Personal panel app built in Ignition Perspective (8.1) with user authentication, profile, settings, and task management (CRUD).
-It is a **personal panel app** where a user can register, log in, and manage tasks through a web interface.
+It is a **personal panel app** where a user can register, log in, manage settings, view and update profile data and manage tasks through a web interface.
 
 ## 📦 Requirements
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS Tasks (
 
 ## ✨ Main Features
 
-- **Home Screen**: shows a random app phrase when the user logs in.  
+- **Home Screen**: shows a random app quote when you click a button, that is consuming an API.  
 - **Register**: user registration with validations and password encryption (SHA-256).  
 - **Login**: user login with database validation.  
 - **Logout**: manual session termination.  
@@ -60,4 +60,3 @@ CREATE TABLE IF NOT EXISTS Tasks (
 
 - Authentication and authorization are implemented **manually** with scripting (`session.custom`).  
 - This approach is fine for practice but **not recommended for production use**.
-- For real environments, consider integrating with **Ignition’s Security Service** or an external IdP.
